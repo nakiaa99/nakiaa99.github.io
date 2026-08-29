@@ -6,3 +6,37 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#p1 {
+    color:rgb(25, 182, 234);
+}
+
+#p2 {
+    background-color:lavender;
+    color:rgb(214, 103, 214);
+}
+
+#s3 {
+    background-color:orange;
+    color:brown;
+}
+
+#p3 {
+    background-color:yellowgreen;
+    color:red;
+}
+
+#p1 {
+    background-color:blue;
+}
+
+#s2 {
+    color:blueviolet;
+    background-color:pink;
+    
+}
+
+#s1 {
+    color:wheat;
+    background-color:rgb(101, 101, 9);
+}
