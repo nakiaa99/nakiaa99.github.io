@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#t1p1 {
+    color:green;
+}
+
+#t2p1 {
+    color: #f711f7;
+}
+
+#t3p3 {
+    color: red;
+    color:goldenrod;
+    color:blue;
+}
+
+#t4p4 {
+    background-color: skyblue;
+}
