@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: rgb(224, 137, 224);
+    max-width: 400px;
+    padding: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(177, 132, 177);
+    display: inline-block;
+}
+
+.primary {
+    background-color: lavender;
+    padding: 12px;
+    border-radius: 22px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.secondary {
+    color: rgb(122, 67, 122);
+    border: 3px solid rgb(186, 110, 186);
+    padding: 12px;
+    border-radius: 22px;
+    font-weight: bold;
+    margin-right: 12px;
+    max-width: 400px; 
+}
+
+.light-container {
+    background-color: rgb(236, 164, 236);
+    
+}
+
