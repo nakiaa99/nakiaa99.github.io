@@ -8,12 +8,22 @@ body {
 }
 
 .single-column {
+   background-color: lightsalmon;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 24px;
-
 }   
+
+.light-container {
+    background-color: rgb(183, 97, 87);
+    padding: 50px; 0px;
+}
+
+.dark-container {
+    background-color: rgb(183, 101, 73);
+    padding: 48x; 0px;
+}
 
 .button {
     text-decoration: none;
@@ -22,7 +32,7 @@ body {
 }
 
 .primary {
-    background-color: lightsalmon;
+    background-color: rgb(238, 109, 58);
     color: white;
     padding: 12px;
     border-radius: 22px; 
@@ -31,8 +41,8 @@ body {
 }
 
 .secondary {
-    color: lightsalmon;
-    border: 3px solid lightsalmon;
+    color: white;
+    border: 3px solid rgb(236, 102, 48);
     padding: 12px;
     border-radius: 22px;
     font-weight: bold;
