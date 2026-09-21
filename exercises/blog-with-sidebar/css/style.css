@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.two-columns {
+    display: flex;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sidebar-column {
+    width: 250px;
+    order: 2;
+    padding: 18px;
+}
+
+
+#sidebar-column h2 {
+    background-color: lightsalmon;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+
+#sidebar-column ul {
+    background-color: lightcoral;
+    margin: 0px 0px 36px;
+    padding: 0px 12px;
+    list-style-type: none;
+    border: 1px solid gray;
+}

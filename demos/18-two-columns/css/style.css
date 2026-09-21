@@ -6,3 +6,50 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#two-column {
+    display: flex;
+    max-width: 800px;
+    margin: 24px auto;
+}
+
+#sidebar-column {
+    width: 250px;
+    order: 2;
+    padding: 18px;
+}
+
+#main-column {
+    flex: 1;
+    order: 1;
+}
+
+#sidebar-column h2 {
+    background-color: lightskyblue;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+
+#sidebar-column ul {
+    background-color: lightcyan;
+    margin: 0px 0px 36px;
+    padding: 0px 12px;
+    list-style-type: none;
+    border: 1px solid darkgrey
+}
+
+#sidebar-column a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+#sidebar-column li {
+    padding: 8px 0px;
+    border-bottom: 1px solid grey;
+}
+
+#sidebar-column li:last-child {
+    border-bottom: 0px;
+}
