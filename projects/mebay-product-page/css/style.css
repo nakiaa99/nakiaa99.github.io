@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 48px auto;
+}
+
+#thumbnail-column {
+    flex: 1;
+}
+
+#featured-image-column {
+    flex: 1;
+    align-items: stretch;
+}
+
+#product-info-column {
+    flex: 1;
+}
+
+.border {
+     color: rgb(218, 201, 201);
+    border: 3px solid maroon;
+    padding: 24;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:brown;
+}
+
