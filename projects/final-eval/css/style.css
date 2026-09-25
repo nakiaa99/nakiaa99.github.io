@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+    margin: 0px;
+    font-family: 'Roboto Condensed';
+}
+
+.center-column {
+    background-color: rgba(183, 255, 76, 0.761);
+    color: rgb(52, 148, 186);
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 48px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+    margin: 48px;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(96, 187, 244);
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    padding: 70px;
+    margin: 350px;
+}
