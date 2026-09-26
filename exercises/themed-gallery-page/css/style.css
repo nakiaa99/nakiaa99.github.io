@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: rgb(244, 197, 140);
+    padding: 24px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navbar a {
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#hero-4 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: beige;
+    background-color: rgba(238, 164, 74, 0.853);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    display: inline block;
+}
+
+#hero-4 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    justify-content: flex;
+    padding: 24px;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 36px;
+    border: 15px solid burlywood;
+    margin: 36px auto;
+    gap: 24px;
+    background-color: bisque;
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+}
+    
+    
