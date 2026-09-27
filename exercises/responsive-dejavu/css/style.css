@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: rgb(244, 197, 140);
+    padding: 24px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navbar a {
+    color:brown;
+    text-decoration: none;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    padding: 20px;
+}
+
+#hero-4 {
+    background-image: url(../mayur-deshpande-zZPeoLxLRyM-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin: 24px;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: beige;
+    background-color: rgba(238, 164, 74, 0.853);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    display: inline block;
+}
+
+#hero-4 h1 {
+    font-size: 60px;
+    padding: 22px;
+    display: flex;
+    color:rgb(249, 174, 82);
+}
+
+#hero-4 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 5px auto;
+    text-align: center;
+    justify-content: flex;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3px auto;
+    gap: 24px;
+    margin: 24px
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+    margin: 60px;
+    display: flex;
+}
+    
+#basic-grid-gallery {
+    max-width: 1000px;
+    margin: 44px auto;
+}
+
+#basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+#basic-grid-gallery img {
+    width: 130%;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 785) {
+    #single-column-layout h1 {
+        font-size: 60px;
+    }
+
+    #basic-grid-gallery {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
