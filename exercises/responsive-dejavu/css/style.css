@@ -70,8 +70,8 @@ body {
 }
 
 .basic-grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: column;
+    grid-template-columns: 1fr;
     margin: 3px auto;
     gap: 24px;
     margin: 24px
@@ -89,7 +89,7 @@ body {
 }
 
 #basic-grid-gallery {
-    display: grid;
+    display: inlineflex;
     grid-template-columns: 1fr;
     gap: 50px;
 }
@@ -104,13 +104,13 @@ body {
     text-align: center;
 }
 
-.vertical-masonry-gallery {
+.horizontal-masonry-gallery {
     columns: 3 auto;
     column-gap: 24px;
 }
 
-.vertical-masonry-gallery img {
-    width: 100%;
+.horizontal-masonry-gallery img {
+    width: 100px;
     margin-bottom: 24px;
 }
 
@@ -120,13 +120,13 @@ body {
     }
 
     #basic-grid-gallery {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         align-items: center;
         flex-wrap: wrap;
     }
 
     #navbar {
-        flex-direction: column;
+        flex-direction: centcolumnr;
         align-items: center;
     }
 }
